@@ -6,7 +6,8 @@ public class Vehiculo {
 	private String marca;
 	private String modelo;
 	private String color;
-	private int ruedas;
+	private int ruedas; //Private solo la clase puede modificarlo
+	protected double velocidad = 0; //Protected mi misma clase y mis hijos pueden modificarlo
 	
 	public Vehiculo(int anio, String marca, String modelo, String color, int ruedas) {
 		this.anio = anio;

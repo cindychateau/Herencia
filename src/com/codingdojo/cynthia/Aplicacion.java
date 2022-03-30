@@ -12,14 +12,29 @@ public class Aplicacion {
 		
 		System.out.println(auto1.info());
 		
-		Vehiculo bici = new Vehiculo(2015, "MarcaBici", "Nuevo modelo", "blanca",2);
+		auto1.acelerar();
+		auto1.acelerar();
+		auto1.acelerar();
+		
+		auto1.desacelerar();
+		
+		System.out.println("----------");
+		
+		/*Vehiculo bici = new Vehiculo(2015, "MarcaBici", "Nuevo modelo", "blanca",2);
 		
 		String biciMarca = bici.getMarca();
 		String biciModelo = bici.getModelo();
 		
 		//bici.informacion();
 		
-		String info = bici.info();
+		String info = bici.info();*/
+		
+		Bicicleta bici = new Bicicleta(2015, "Apache", "M55", "blanca",2);
+		
+		bici.acelerar();
+		bici.acelerar();
+		
+		bici.desacelerar();
 		
 	}
 
